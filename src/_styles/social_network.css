@@ -1,0 +1,8 @@
+.social_network__data_container {
+  display: flex;
+  align-items: center;
+}
+
+.social_network__logo {
+  margin: 0.5em 7px;
+}

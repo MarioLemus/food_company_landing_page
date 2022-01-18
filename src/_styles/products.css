@@ -1,0 +1,26 @@
+.products__container {
+  display: flex;
+  width: clamp(350px, 90vw, 1208px);
+  margin: 0 auto;
+  margin-top: 1em;
+  border: 2px solid #025e1f;
+  border-radius: 5px;
+  height: 500px;
+}
+
+.products__grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  overflow-x: hidden;
+}
+
+.products__card_container {
+  margin-top: 1.5em;
+}
+
+@media (max-width: 1150px) {
+  .products__grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

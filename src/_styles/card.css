@@ -1,0 +1,23 @@
+.card__container {
+  /* width: clamp(350px, 90vw, 398px); */
+  text-align: center;
+  margin: 0 auto;
+}
+
+.card__container picture {
+  display: flex;
+  justify-content: center;
+}
+
+.card__container img {
+  width: clamp(75px, 10vw, 128px);
+}
+
+.card__container > p {
+  font-size: clamp(0.3em, 10vw, 1.5em);
+  width: 100%;
+}
+
+.card__container h3 {
+  padding: 0 7px;
+}

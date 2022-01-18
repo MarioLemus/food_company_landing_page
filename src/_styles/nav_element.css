@@ -1,0 +1,9 @@
+.nav_element__link {
+  text-decoration: none;
+  color: #000;
+  padding: 1em 1.5em;
+}
+
+.active {
+  color: red;
+}

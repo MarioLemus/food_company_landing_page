@@ -1,0 +1,19 @@
+.navbar__container {
+  background-color: rgb(255, 255, 255, 0.3);
+  backdrop-filter: blur(7px);
+  width: 100%;
+  margin: 0 auto;
+}
+
+.navbar__container div {
+  display: flex;
+  justify-content: center;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.navbar__container img {
+  width: 90px;
+  margin-top: 2px;
+  object-fit: cover;
+}

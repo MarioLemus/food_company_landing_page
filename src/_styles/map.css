@@ -1,0 +1,34 @@
+.map__container {
+  width: clamp(350px, 90vw, 600px);
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.map__title_container {
+  width: clamp(350px, 90vw, 654px);
+}
+
+.map__title {
+  font-size: clamp(0.5em, 10vw, 3em);
+}
+
+.map__subtitle {
+  font-size: clamp(0.3em, 10vw, 1.5em);
+}
+
+.map__iframe_container {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 27px 27px;
+  border-radius: 5px;
+}
+
+.map {
+  width: clamp(350px, 90vw, 600px);
+  height: 450px;
+  margin: 0 auto;
+  border: 0;
+}

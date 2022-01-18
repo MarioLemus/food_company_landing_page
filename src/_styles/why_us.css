@@ -1,0 +1,22 @@
+.why_us__container {
+  background-color: #025e1f;
+  margin-bottom: -2.5em;
+}
+
+.why_us__title {
+  padding-top: 2em;
+  font-size: clamp(0.5em, 10vw, 3em);
+  text-align: center;
+}
+
+.why_us__container div {
+  width: clamp(350px, 50vw, 804px);
+  margin: 0 auto;
+  padding-top: 1em;
+  padding-bottom: 5em;
+  color: #eee;
+}
+
+.why_us__subtitle {
+  font-size: clamp(0.3em, 10vw, 1.5em);
+}

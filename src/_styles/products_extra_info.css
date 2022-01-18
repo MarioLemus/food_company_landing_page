@@ -1,0 +1,17 @@
+.products_extra_info__container {
+  display: flex;
+  width: (350px, 90vw, 1200px);
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.products_extra_info__title {
+  padding-top: 2em;
+  padding-bottom: 0.5em;
+  text-align: center;
+  font-size: clamp(0.5em, 10vw, 3em);
+}
+
+.products_extra_info__title span {
+  color: red;
+}
