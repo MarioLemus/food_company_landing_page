@@ -48,7 +48,7 @@ export default function CountactUs() {
           <section className="contact_us__data_container">
             <FiPhoneCall className="contact_us__icon" />
             <p>(+503) 2560 3315 | (+503) 2560 3301 | (+503) 2560 3316</p>
-            <a href="https://www.paginasamarillas.com.sv/empresas/si-ham/santa-tecla-7438874">
+            <a target="_blank" rel="noreferrer" href="https://www.paginasamarillas.com.sv/empresas/si-ham/santa-tecla-7438874">
               Contáctanos gratis a través de internet
             </a>
           </section>
